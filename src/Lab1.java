@@ -25,8 +25,19 @@ public class Lab1 {
 		
 		
 		int age = (2015-yearBorn);			
-		System.out.printf("Hello %s you're %d year-old today", name, age);
+		System.out.printf("Hello %s you're %d year-old today\n", name, age);
 		
+		
+		if (age>=21){
+			
+			System.out.println("Congratulations, you can drink, lawfully");
+			
+		}
+		
+		else{
+			System.out.println("Sorry got to wait to till your 21 kid");
+			
+		}
 		
 	}
 	
